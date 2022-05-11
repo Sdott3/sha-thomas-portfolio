@@ -1,7 +1,7 @@
 :root {
-    --primary-color:#fcde67;
-    --secondary-color: #030312;
-    --tertiary-color:#5bccfd;
+    --primary-color: #fdf5df;
+    --secondary-color: #53bec4;
+    --tertiary-color: #39a6b2;
 }
 
 * {
@@ -16,6 +16,12 @@ body {
 }
 
 /* Typography */
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
+}
 
 /* Header Nav Bar Styles */
 header {
@@ -58,3 +64,20 @@ header nav ul li a {
 nav ul li a {
     font-size: 25px;
 }
+
+/* Intro Section */
+.intro {
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.intro-img {
+    border: 5px solid transparent;
+    padding: 25px 20px 20px 20px;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+/* About Me */
