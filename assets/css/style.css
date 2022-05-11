@@ -10,14 +10,51 @@
     box-sizing: border-box;
 }
 
+body {
+    color:var(--secondary-color);
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
 /* Typography */
 
 /* Header Nav Bar Styles */
 header {
-    padding: 30px 55px;
+    padding: 20px 30px;
     background-color: var(--primary-color);
-}
+    background-size: cover;
+    background-position: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: inherit;   
+} 
 
 header h1 {
-    font-size: 50px;
+    font-size: 45px;
+    font-family: 'Licorice', cursive;
+    font-family: 'Luxurious Script', cursive;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+}
+
+header nav ul li a {
+    margin: 10px 15px;
+} 
+
+nav ul li a {
+    font-size: 25px;
 }
