@@ -1,7 +1,7 @@
 :root {
     --primary-color: #fdf5df;
     --secondary-color: #53bec4;
-    --tertiary-color: #39a6b2;
+    --tertiary-color: #0b0c10;
 }
 
 * {
@@ -11,8 +11,7 @@
 }
 
 body {
-    color:var(--secondary-color);
-    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
 /* Typography */
@@ -20,11 +19,16 @@ h1 {
     font-size: 40px;
 }
 h2 {
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 header h1, .intro-title-two {
     font-family: 'Luxurious Script', cursive;
+}
+
+.about-me-title, .my-work-title {
+    font-size: 5rem;
+    text-align: center;
 }
 
 /* Header Nav Bar Styles */
@@ -40,14 +44,15 @@ header {
 } 
 
 header h1 {
-    font-size: 85px;
+    color: var(--tertiary-color);
+    font-size: 5rem;
     font-family: 'Luxurious Script', cursive;
     padding-left: 85px;
 }
 
 header a {
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 header nav {
@@ -93,3 +98,18 @@ nav ul li a {
 }
 
 /* About Me */
+.about-me {
+    padding: 30px 30px 100px 100px;
+    border: 5px solid black;
+    background-color: var(--secondary-color);
+}
+.about-me-title {
+    color: var(--tertiary-color);
+}
+
+.aboout-me-body, p {
+    padding-left: 50px;
+    margin-top: 50px;
+    border: 5px solid black;
+    font-size: 20px;
+}
