@@ -22,8 +22,8 @@ h2 {
     font-size: 2rem;
 }
 h3 {
-    font-size: 30px;
-    color: var(--secondary-color);
+    font-size: 35px;
+    color: var(--tertiary-color);
 }
 
 header h1, .intro-title-two {
@@ -129,6 +129,7 @@ nav ul li a {
 /* My work */
 .my-work {
     background-color: var(--primary-color);
+    padding-bottom: 50px;
 }
 
 .my-work-title {
@@ -144,14 +145,25 @@ nav ul li a {
 
 .my-work-1, .my-work-2, .my-work-3,
 .my-work-4, .my-work-5, .my-work-6 {
-    padding: 25px;
+    padding: 28px;
+    justify-content: space-between;
     position: relative;
+    transform: scale(1);
+    transition: 0.3s ease-;
 }
 
+.my-work-1:hover, .my-work-2:hover, .my-work-3:hover, 
+.my-work-4:hover, .my-work-5:hover, .my-work-6:hover{
+    transform: scale(1.3);
+}
 .my-work1-text, .my-work2-text, .my-work3-text, 
 .my-work4-text, .my-work5-text, .my-work6-text {
     position: absolute;
     font-size: 30px;
     bottom: 30px;
     left: 3rem;
+    background-color: var(--primary-color);
 }
+
+
+
