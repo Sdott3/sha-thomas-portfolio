@@ -72,7 +72,15 @@ header nav ul {
 
 header nav ul li a {
     margin: 10px 15px;
+    border-radius: 4px;
+
 } 
+
+header nav ul li a:hover {
+    box-shadow: none;
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+}
 
 nav ul li a {
     font-size: 25px;
@@ -145,4 +153,5 @@ nav ul li a {
     position: absolute;
     font-size: 30px;
     bottom: 30px;
+    left: 3rem;
 }
