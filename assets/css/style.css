@@ -212,6 +212,6 @@ section nav ul {
 @media screen and (max-width: 575px) {
    header nav {
     text-align: center;
-    width: ;
+    width: 100%;
    }
 }
