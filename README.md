@@ -8,6 +8,7 @@ Build a portfolio page, to showcase your skills and talents to employers looking
 * CSS
 
 ## Website
+https://sdott3.github.io/sha-thomas-portfolio/
 
 ## Screenshoot 
 
